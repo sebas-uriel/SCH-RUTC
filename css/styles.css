@@ -96,16 +96,7 @@ body {
     width: 100%; /* Asegura que ocupe todo el ancho */
 }
 
-.footer {
-    height: 60px; /* Altura del pie de página */
-    background-color: #333;
-    color: white;
-    text-align:center;
-    line-height: 10px; /* Centra verticalmente el texto */
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-}
+
 .centered {
     display:flexbox;
     justify-content:center;
