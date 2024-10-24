@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Topologias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark-gray">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Topologias</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Redes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../pages/TiposDeRedes.html">Tipos de Redes</a></li>
+                            <li><a class="dropdown-item" href="../pages/Topologias.html">Topologias</a></li>
+                            <li><a class="dropdown-item" href="../pages/Protocolo.html">Protocolo 802.11</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="section">
+        <h1 class="text-center">Topologías de red</h1>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12"><p><img src="./img/mamitas.jpg" alt=""></p></div>
+            <div class="col-lg-6 order-md-first col-sm-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="accordion" id="accordionExample">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button accordion-button-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                1. Estrella
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>La topología estrella es una de las más comunes y fáciles de implementar. En esta topología, todos los dispositivos se conectan a un dispositivo central, como un router o un switch. Este diseño permite que cada dispositivo tenga una conexión dedicada, lo que mejora la eficiencia de la comunicación en la red.</p>
+                                <p>Además, en la topología estrella, la gestión de la red es bastante sencilla. Si un dispositivo falla, solo ese dispositivo se ve afectado, y la red puede seguir funcionando sin interrupciones. Esto la convierte en una opción popular para oficinas y entornos donde la continuidad del servicio es crucial.</p>
+                                <p>Por otro lado, la topología estrella también presenta algunos inconvenientes. La dependencia de un dispositivo central significa que si este falla, toda la red se interrumpe. Por lo tanto, es esencial contar con un dispositivo central confiable y de alta calidad.</p>
+                                <p>Finalmente, la topología estrella es ideal para redes pequeñas y medianas, donde la facilidad de instalación y gestión es una prioridad. Sin embargo, en redes más grandes, puede requerir una inversión significativa en hardware para asegurar que el dispositivo central pueda manejar la carga de tráfico.</p>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <img src="../img/estrella1.png" alt="Imagen de Topología Estrella" class="imagen-centrada img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button accordion-button-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                2. Bus
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>La topología bus utiliza un único cable principal al que se conectan directamente todos los dispositivos. La información se transmite a través de este cable y solo el dispositivo al que va dirigida la recibe. Esta configuración es simple y fácil de instalar, lo que la hace atractiva para redes pequeñas y de baja complejidad.</p>
+                                <p>Una de las ventajas clave de la topología bus es su bajo costo. Requiere menos cableado que otras topologías, lo que la hace más económica. Además, la instalación y configuración son relativamente sencillas, lo que reduce los costos de mantenimiento.</p>
+                                <p>Por otro lado, la topología bus también tiene algunas desventajas importantes. Si el cable principal falla, toda la red se cae, lo que puede ser un problema en entornos críticos. Además, la velocidad de la red puede verse afectada si hay muchos dispositivos transmitiendo información simultáneamente.</p>
+                                <p>En resumen, la topología bus es una opción adecuada para redes pequeñas y simples, donde la facilidad de instalación y el bajo costo son prioritarios. Sin embargo, en redes más grandes y complejas, puede no ser la mejor opción debido a sus limitaciones.</p>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <img src="../img/bus.png" alt="Imagen de Topología Bus" class="imagen-centrada img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button accordion-button-custom" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                3. Árbol
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>La topología árbol es una combinación de las topologías estrella y bus. Un cable principal se divide en segmentos, y cada segmento funciona como una red en estrella independiente. Esta configuración ofrece una mayor flexibilidad y escalabilidad que las topologías estrella y bus.</p>
+                                <p>La topología árbol es ideal para redes medianas y grandes, donde se requiere una mayor capacidad de escalabilidad y flexibilidad. Permite agregar nuevos dispositivos y segmentos de red de manera sencilla, lo que la hace adecuada para entornos en constante crecimiento.</p>
+                                <p>Además, la topología árbol ofrece una mayor tolerancia a fallos que las topologías estrella y bus. Si un segmento de red falla, solo ese segmento se ve afectado, y la red puede seguir funcionando sin interrupciones.</p>
+                                <p>Por otro lado, la topología árbol también tiene algunos inconvenientes. Requiere un cable principal potente y confiable, y la configuración y mantenimiento pueden ser más complejos que en otras topologías.</p>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <img src="../img/arbol.png" alt="Imagen de Topología Árbol" class="imagen-centrada img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin ="anonymous"></script>
+</body>
+</html>

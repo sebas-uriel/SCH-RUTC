@@ -1,0 +1,119 @@
+body {
+    background: #000000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #ccc;
+}
+
+.bg-dark-gray {
+    background-color: #333;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.imagen-difuminada {
+    border-radius: 30px;
+    box-shadow:
+        0px 0px 15px rgba(0, 0, 0, 0.5),
+        0 0 10px 2px rgb(255, 255, 255),
+        0 0 15px 5px rgb(13, 125, 229),
+        0 0 20px 8px rgba(0, 0, 0, 0.8);
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+.imagen-difuminada1 {
+    border-radius: 30px;
+    box-shadow:
+        0px 0px 15px rgba(0, 0, 0, 0.5),
+        0 0 10px 2px rgb(255, 255, 255),
+        0 0 15px 5px rgb(255, 255, 255),
+        0 0 20px 8px rgba(255, 255, 255, 0.8);
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+.imagen-centrada {
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+.imagen-difuminada:hover {
+    transform: scale(1.05);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+.navbar .navbar-toggler-icon{
+    color: #fff;
+
+}
+.accordion-button-custom {
+    background-color: rgb(56, 55, 55); /* Color de fondo gris */
+    color: white; /* Color del texto blanco */
+}
+
+.accordion-button-custom:not(.collapsed) {
+    background-color: rgb(212, 207, 207); /* Color de fondo gris más oscuro cuando está expandido */
+    color: rgb(0, 0, 0); /* Color del texto blanco cuando está expandido */
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(101, 95, 95); /* Cambia el color de fondo a blanco */
+}
+.footer {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
+    position: relative; /* Para posicionar el pie de página */
+    bottom: 0; /* Asegura que esté al final de la página */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.footer {
+    height: 60px; /* Altura del pie de página */
+    background-color: #333;
+    color: white;
+    text-align:center;
+    line-height: 10px; /* Centra verticalmente el texto */
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.centered {
+    display:flexbox;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column-reverse; /* Asegura que los elementos se alineen verticalmente */
+}
+.gif-container {
+    display: flex;
+    justify-content:center; /* Centra los GIFs horizontalmente */
+    align-items: center; /* Centra los GIFs verticalmente */
+}
